@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | America's Contracting Solutions</title>
+  <meta name="description" content="ACS project portfolio — 120+ completed locations across Texas and Utah. Fix & flip, full renovation, new construction, and ADU additions.">
+  <meta property="og:title" content="Portfolio | America's Contracting Solutions">
+  <meta property="og:type" content="website">
+  <meta name="robots" content="index, follow">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><defs><clipPath id='c'><circle cx='50' cy='50' r='48'/></clipPath></defs><g clip-path='url(%23c)'><rect width='100' height='100' fill='%23C50009'/><rect x='50' width='50' height='100' fill='%23D20A11'/><polygon points='0,70 0,100 46,100 50,88 26,64' fill='%230060A0'/><polygon points='100,70 100,100 54,100 50,88 74,64' fill='%23008AD1'/><polygon points='50,6 14,54 25,62 50,22' fill='white' opacity='.92'/><polygon points='50,6 86,54 75,62 50,22' fill='white' opacity='.92'/><polygon points='50,34 18,74 29,82 50,48' fill='white' opacity='.88'/><polygon points='50,34 82,74 71,82 50,48' fill='white' opacity='.88'/></g></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- ════ PAGE LOADER ════ -->
+<div id="page-loader">
+  <svg class="loader-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs><clipPath id="lcp"><circle cx="50" cy="50" r="48"/></clipPath></defs>
+    <g clip-path="url(#lcp)">
+      <rect width="100" height="100" fill="#C50009"/><rect x="50" width="50" height="100" fill="#D20A11"/>
+      <polygon points="0,70 0,100 46,100 50,88 26,64" fill="#0060A0"/>
+      <polygon points="100,70 100,100 54,100 50,88 74,64" fill="#008AD1"/>
+      <polygon points="50,6 14,54 25,62 50,22" fill="white" opacity=".92"/>
+      <polygon points="50,6 86,54 75,62 50,22" fill="white" opacity=".92"/>
+      <polygon points="50,34 18,74 29,82 50,48" fill="white" opacity=".88"/>
+      <polygon points="50,34 82,74 71,82 50,48" fill="white" opacity=".88"/>
+    </g>
+    <circle cx="50" cy="50" r="47.5" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+  </svg>
+</div>
+
+<!-- ════ NAVBAR ════ -->
+<nav id="navbar">
+  <div class="container navbar-inner">
+    <a href="index.html" class="navbar-logo">
+      <svg class="logo-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <defs><clipPath id="ncp"><circle cx="50" cy="50" r="48"/></clipPath></defs>
+        <g clip-path="url(#ncp)">
+          <rect width="100" height="100" fill="#C50009"/><rect x="50" width="50" height="100" fill="#D20A11"/>
+          <polygon points="0,70 0,100 46,100 50,88 26,64" fill="#0060A0"/>
+          <polygon points="100,70 100,100 54,100 50,88 74,64" fill="#008AD1"/>
+          <polygon points="50,6 14,54 25,62 50,22" fill="white" opacity=".92"/>
+          <polygon points="50,6 86,54 75,62 50,22" fill="white" opacity=".92"/>
+          <polygon points="50,34 18,74 29,82 50,48" fill="white" opacity=".88"/>
+          <polygon points="50,34 82,74 71,82 50,48" fill="white" opacity=".88"/>
+        </g>
+        <circle cx="50" cy="50" r="47.5" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+      </svg>
+      <div class="logo-text"><span class="l1">AMERICA'S</span><span class="l2">CONTRACTING SOLUTIONS</span></div>
+    </a>
+    <div class="navbar-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html" class="active">Portfolio</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <a href="contact.html" class="btn btn-primary navbar-cta">Get a Free Quote</a>
+    <button class="hamburger" id="hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div id="mobile-nav">
+  <a href="index.html">Home</a><a href="about.html">About</a>
+  <a href="services.html">Services</a><a href="portfolio.html" class="active">Portfolio</a>
+  <a href="contact.html">Contact</a>
+  <a href="contact.html" class="btn btn-primary">Get a Free Quote</a>
+</div>
+
+<!-- ════ PAGE HERO ════ -->
+<header class="page-hero">
+  <img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?auto=format&fit=crop&w=1920&q=80" alt="Aerial view of completed homes" loading="eager">
+  <div class="page-hero-overlay"></div>
+  <div class="page-hero-content">
+    <h1>Our Work Speaks<br>For Itself</h1>
+    <p class="page-hero-sub">120+ house locations across Texas and Utah</p>
+  </div>
+</header>
+
+<!-- ════ PROJECT GRID ════ -->
+<section class="section-pad" style="background:var(--bg-base)">
+  <div class="container">
+    <div class="text-center fade-up" style="margin-bottom:48px">
+      <span class="red-label">Case Studies</span>
+      <h2 style="color:#fff">Completed Projects</h2>
+      <div class="divider-sm center"></div>
+    </div>
+
+    <!-- Filter Tabs -->
+    <div class="filter-tabs fade-up">
+      <button class="filter-tab active" data-filter="all">All Projects</button>
+      <button class="filter-tab" data-filter="flip">Fix &amp; Flip</button>
+      <button class="filter-tab" data-filter="remodel">Remodel</button>
+      <button class="filter-tab" data-filter="newbuild">New Build</button>
+      <button class="filter-tab" data-filter="adu">ADU Addition</button>
+    </div>
+
+    <!-- Grid -->
+    <div class="projects-grid">
+
+      <!-- Project 1 -->
+      <div class="project-card-wrap" data-category="flip">
+        <div class="project-card">
+          <img src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?auto=format&fit=crop&w=800&q=80" alt="Old Home Preservation Remodel Salt Lake City" loading="lazy">
+          <span class="pc-badge">Fix &amp; Flip</span>
+          <div class="pc-overlay">
+            <h4 class="pc-title">Old Home Preservation Remodel</h4>
+            <p class="pc-loc"><i class="fa fa-location-dot" style="margin-right:5px"></i>Salt Lake City, UT</p>
+            <p class="pc-desc"><strong style="color:#fff">Challenge:</strong> Hidden leak in outdated kitchen plumbing, strict preservation codes.<br><strong style="color:#fff">Result:</strong> Fixed in 5 days, full remodel in 64 days, on budget.</p>
+            <a href="#project-1" class="pc-link">Read More <i class="fa fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card-wrap" data-category="remodel">
+        <div class="project-card">
+          <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=800&q=80" alt="Draper UT Remodel and Addition" loading="lazy">
+          <span class="pc-badge">Remodel</span>
+          <div class="pc-overlay">
+            <h4 class="pc-title">Draper, UT Remodel & Addition</h4>
+            <p class="pc-loc"><i class="fa fa-location-dot" style="margin-right:5px"></i>Draper, UT</p>
+            <p class="pc-desc"><strong style="color:#fff">Challenge:</strong> Supply chain delays for custom framing.<br><strong style="color:#fff">Result:</strong> Under 90 days, reduced costs, sold pre-completion.</p>
+            <a href="#project-2" class="pc-link">Read More <i class="fa fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card-wrap" data-category="remodel">
+        <div class="project-card">
+          <img src="https://images.unsplash.com/photo-1591088398332-8a7791972843?auto=format&fit=crop&w=800&q=80" alt="Sloped Backyard Deck Remodel" loading="lazy">
+          <span class="pc-badge">Remodel</span>
+          <div class="pc-overlay">
+            <h4 class="pc-title">Residential Remodel with Sloped Deck</h4>
+            <p class="pc-loc"><i class="fa fa-location-dot" style="margin-right:5px"></i>Utah</p>
+            <p class="pc-desc"><strong style="color:#fff">Challenge:</strong> Unstable soil on sloped lot caused deck settling.<br><strong style="color:#fff">Result:</strong> Secure deck, no overruns, added rainwater harvesting.</p>
+            <a href="#project-3" class="pc-link">Read More <i class="fa fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="project-card-wrap" data-category="adu">
+        <div class="project-card">
+          <img src="https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?auto=format&fit=crop&w=800&q=80" alt="Full Home Renovation with ADU Addition" loading="lazy">
+          <span class="pc-badge">ADU Addition</span>
+          <div class="pc-overlay">
+            <h4 class="pc-title">Full Home Renovation + ADU</h4>
+            <p class="pc-loc"><i class="fa fa-location-dot" style="margin-right:5px"></i>Utah</p>
+            <p class="pc-desc"><strong style="color:#fff">Challenge:</strong> Permitting issues — shared utilities violating ADU codes.<br><strong style="color:#fff">Result:</strong> Under schedule, fully code-compliant.</p>
+            <a href="#project-4" class="pc-link">Read More <i class="fa fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 5 -->
+      <div class="project-card-wrap" data-category="remodel">
+        <div class="project-card">
+          <img src="https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?auto=format&fit=crop&w=800&q=80" alt="Home Renovation Foundation Moisture" loading="lazy">
+          <span class="pc-badge">Remodel</span>
+          <div class="pc-overlay">
+            <h4 class="pc-title">Renovation with Foundation Moisture</h4>
+            <p class="pc-loc"><i class="fa fa-location-dot" style="margin-right:5px"></i>Texas</p>
+            <p class="pc-desc"><strong style="color:#fff">Challenge:</strong> Yard slope moisture weakened foundation.<br><strong style="color:#fff">Result:</strong> Resolved in under a week, cost savings, minimal disruption.</p>
+            <a href="#project-5" class="pc-link">Read More <i class="fa fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 6 -->
+      <div class="project-card-wrap" data-category="adu">
+        <div class="project-card">
+          <img src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=800&q=80" alt="Master Bathroom Addition" loading="lazy">
+          <span class="pc-badge">ADU Addition</span>
+          <div class="pc-overlay">
+            <h4 class="pc-title">Master Bathroom Addition</h4>
+            <p class="pc-loc"><i class="fa fa-location-dot" style="margin-right:5px"></i>Utah</p>
+            <p class="pc-desc"><strong style="color:#fff">Challenge:</strong> Add private master bath without losing living space.<br><strong style="color:#fff">Result:</strong> Used garage space — master bath + open-concept kitchen added.</p>
+            <a href="#project-6" class="pc-link">Read More <i class="fa fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 7 -->
+      <div class="project-card-wrap" data-category="newbuild">
+        <div class="project-card">
+          <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80" alt="Bastrop TX New Build" loading="lazy">
+          <span class="pc-badge">New Build</span>
+          <div class="pc-overlay">
+            <h4 class="pc-title">Bastrop, TX Funding & Inspection Delays</h4>
+            <p class="pc-loc"><i class="fa fa-location-dot" style="margin-right:5px"></i>Bastrop, TX</p>
+            <p class="pc-desc"><strong style="color:#fff">Challenge:</strong> Lender upfront costs, overcharging septic, incorrect foundation elevation.<br><strong style="color:#fff">Result:</strong> Completed in record 3 months + 1 week.</p>
+            <a href="#project-7" class="pc-link">Read More <i class="fa fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /projects-grid -->
+  </div>
+</section>
+
+<!-- ════ CASE STUDY DETAILS ════ -->
+<section class="section-pad" style="background:#0d0d0d">
+  <div class="container">
+    <div class="text-center fade-up" style="margin-bottom:56px">
+      <span class="red-label">Deep Dive</span>
+      <h2 style="color:#fff">Project Case Studies</h2>
+      <div class="divider-sm center"></div>
+    </div>
+
+    <!-- Case 1 -->
+    <div id="project-1" class="two-col fade-up" style="margin-bottom:80px;padding-bottom:80px;border-bottom:1px solid rgba(255,255,255,.06)">
+      <div class="col-img">
+        <img src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?auto=format&fit=crop&w=900&q=80" alt="Old Home Preservation Remodel" loading="lazy">
+      </div>
+      <div>
+        <span class="pc-badge" style="position:static;display:inline-block;margin-bottom:14px">Fix &amp; Flip</span>
+        <h3 style="color:#fff;margin-bottom:6px">Old Home Preservation Remodel</h3>
+        <p style="color:var(--blue);font-family:var(--font-head);font-size:.78rem;letter-spacing:.1em;margin-bottom:20px"><i class="fa fa-location-dot" style="margin-right:6px"></i>Salt Lake City, UT</p>
+        <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;margin-bottom:24px">
+          <div style="background:var(--bg-card);padding:16px;border-radius:4px;text-align:center">
+            <div style="font-family:var(--font-head);font-size:1.4rem;font-weight:800;color:var(--red)">5</div>
+            <div style="font-size:.75rem;color:var(--gray-light);font-family:var(--font-head);letter-spacing:.08em">Days to Fix Leak</div>
+          </div>
+          <div style="background:var(--bg-card);padding:16px;border-radius:4px;text-align:center">
+            <div style="font-family:var(--font-head);font-size:1.4rem;font-weight:800;color:var(--red)">64</div>
+            <div style="font-size:.75rem;color:var(--gray-light);font-family:var(--font-head);letter-spacing:.08em">Days Total</div>
+          </div>
+          <div style="background:var(--bg-card);padding:16px;border-radius:4px;text-align:center">
+            <div style="font-family:var(--font-head);font-size:1.4rem;font-weight:800;color:var(--red)">✓</div>
+            <div style="font-size:.75rem;color:var(--gray-light);font-family:var(--font-head);letter-spacing:.08em">On Budget</div>
+          </div>
+        </div>
+        <p style="margin-bottom:12px"><strong style="color:var(--red)">Challenge:</strong> Hidden leak in outdated kitchen plumbing discovered mid-project. Strict preservation codes limited material options.</p>
+        <p style="margin-bottom:12px"><strong style="color:var(--blue)">Resolution:</strong> Partnered with a specialized plumber, sourced code-compliant upgrades, negotiated material discounts to offset additional labor.</p>
+        <p><strong style="color:#fff">Outcome:</strong> Leak resolved in 5 days. Full remodel completed in 64 days, on budget, with a fully satisfied client.</p>
+      </div>
+    </div>
+
+    <!-- Case 2 -->
+    <div id="project-2" class="two-col reversed fade-up" style="margin-bottom:80px;padding-bottom:80px;border-bottom:1px solid rgba(255,255,255,.06)">
+      <div class="col-img">
+        <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=900&q=80" alt="Draper UT Remodel" loading="lazy">
+      </div>
+      <div>
+        <span class="pc-badge" style="position:static;display:inline-block;margin-bottom:14px">Remodel</span>
+        <h3 style="color:#fff;margin-bottom:6px">Draper, UT Remodel & Addition</h3>
+        <p style="color:var(--blue);font-family:var(--font-head);font-size:.78rem;letter-spacing:.1em;margin-bottom:20px"><i class="fa fa-location-dot" style="margin-right:6px"></i>Draper, UT</p>
+        <p style="margin-bottom:12px"><strong style="color:var(--red)">Challenge:</strong> Supply chain delays for custom framing materials threatened a full 1-month project setback.</p>
+        <p style="margin-bottom:12px"><strong style="color:var(--blue)">Resolution:</strong> Sourced alternative suppliers, reordered task sequences, held weekly cost meetings, reallocated funds strategically.</p>
+        <p><strong style="color:#fff">Outcome:</strong> Completed under 90 days with reduced total costs. Sold pre-completion — the quality spoke for itself before we listed it.</p>
+      </div>
+    </div>
+
+    <!-- Case 7 (Bastrop) -->
+    <div id="project-7" class="two-col fade-up">
+      <div class="col-img">
+        <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=900&q=80" alt="Bastrop TX New Build" loading="lazy">
+      </div>
+      <div>
+        <span class="pc-badge" style="position:static;display:inline-block;margin-bottom:14px">New Build</span>
+        <h3 style="color:#fff;margin-bottom:6px">Bastrop, TX — Funding & Inspection Delays</h3>
+        <p style="color:var(--blue);font-family:var(--font-head);font-size:.78rem;letter-spacing:.1em;margin-bottom:20px"><i class="fa fa-location-dot" style="margin-right:6px"></i>Bastrop, TX 78602</p>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:24px">
+          <div style="background:var(--bg-card);padding:16px;border-radius:4px;text-align:center">
+            <div style="font-family:var(--font-head);font-size:1.1rem;font-weight:800;color:var(--red)">3 Mo + 1 Wk</div>
+            <div style="font-size:.75rem;color:var(--gray-light);font-family:var(--font-head);letter-spacing:.08em">Record Completion</div>
+          </div>
+          <div style="background:var(--bg-card);padding:16px;border-radius:4px;text-align:center">
+            <div style="font-family:var(--font-head);font-size:1.1rem;font-weight:800;color:var(--red)">3 Issues</div>
+            <div style="font-size:.75rem;color:var(--gray-light);font-family:var(--font-head);letter-spacing:.08em">All Resolved Pre-Pour</div>
+          </div>
+        </div>
+        <p style="margin-bottom:12px"><strong style="color:var(--red)">Challenge:</strong> Lender upfront cost disputes, septic contractor overcharging, and incorrect foundation elevation discovered before pour.</p>
+        <p style="margin-bottom:12px"><strong style="color:var(--blue)">Resolution:</strong> ACS fronted costs to keep the project moving, negotiated lender fund release, caught and corrected foundation elevation error before concrete was poured — saving tens of thousands.</p>
+        <p><strong style="color:#fff">Outcome:</strong> Completed in a record 3 months + 1 week. Client has returned for subsequent projects — the definition of ongoing loyalty.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ════ PROJECTS CHART ════ -->
+<section class="section-pad" style="background:var(--bg-base)">
+  <div class="container">
+    <div class="text-center fade-up" style="margin-bottom:48px">
+      <span class="red-label">Track Record</span>
+      <h2 style="color:#fff">ACS Projects, In-House (Sold)</h2>
+      <div class="divider-sm center"></div>
+      <p style="max-width:560px;margin:0 auto">14 sold properties with verified sale prices — a documented track record of delivering value across multiple markets.</p>
+    </div>
+    <div class="chart-wrap fade-up">
+      <canvas id="portfolio-chart" height="90"></canvas>
+    </div>
+  </div>
+</section>
+
+<!-- ════ CTA ════ -->
+<section class="cta-banner">
+  <div class="container">
+    <h2>Ready To Be Our Next Success Story?</h2>
+    <p>Let's discuss your project and build a plan together.</p>
+    <div class="cta-btns">
+      <a href="contact.html" class="btn btn-white-red"><i class="fa fa-paper-plane"></i> Start a Project</a>
+      <button class="btn btn-outline" data-open-modal><i class="fa fa-calendar"></i> Book Appointment</button>
+    </div>
+  </div>
+</section>
+
+<!-- ════ FOOTER ════ -->
+<footer id="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo-wrap">
+          <svg class="logo-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs><clipPath id="fcp"><circle cx="50" cy="50" r="48"/></clipPath></defs>
+            <g clip-path="url(#fcp)">
+              <rect width="100" height="100" fill="#C50009"/><rect x="50" width="50" height="100" fill="#D20A11"/>
+              <polygon points="0,70 0,100 46,100 50,88 26,64" fill="#0060A0"/>
+              <polygon points="100,70 100,100 54,100 50,88 74,64" fill="#008AD1"/>
+              <polygon points="50,6 14,54 25,62 50,22" fill="white" opacity=".92"/>
+              <polygon points="50,6 86,54 75,62 50,22" fill="white" opacity=".92"/>
+              <polygon points="50,34 18,74 29,82 50,48" fill="white" opacity=".88"/>
+              <polygon points="50,34 82,74 71,82 50,48" fill="white" opacity=".88"/>
+            </g>
+          </svg>
+          <div class="logo-text"><span class="l1">AMERICA'S</span><span class="l2">CONTRACTING SOLUTIONS</span></div>
+        </div>
+        <p class="footer-tagline">Turning Visionary Concepts Into Exceptionally Built Spaces. Purpose-driven construction serving Central Texas and Utah.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="Twitter/X"><i class="fab fa-x-twitter"></i></a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-head">Quick Links</div>
+        <nav class="footer-links">
+          <a href="index.html"><i class="fa fa-chevron-right" style="font-size:.65rem;color:var(--red);margin-right:6px"></i>Home</a>
+          <a href="about.html"><i class="fa fa-chevron-right" style="font-size:.65rem;color:var(--red);margin-right:6px"></i>About</a>
+          <a href="services.html"><i class="fa fa-chevron-right" style="font-size:.65rem;color:var(--red);margin-right:6px"></i>Services</a>
+          <a href="portfolio.html"><i class="fa fa-chevron-right" style="font-size:.65rem;color:var(--red);margin-right:6px"></i>Portfolio</a>
+          <a href="contact.html"><i class="fa fa-chevron-right" style="font-size:.65rem;color:var(--red);margin-right:6px"></i>Contact</a>
+        </nav>
+      </div>
+      <div>
+        <div class="footer-head">Contact Us</div>
+        <div class="footer-contact-item"><i class="fa fa-location-dot"></i><span>172 Waikakaaua Dr<br>Bastrop, TX 78602</span></div>
+        <div class="footer-contact-item"><i class="fa fa-phone"></i><a href="tel:8015417499">801-541-7499</a></div>
+        <div class="footer-contact-item"><i class="fa fa-envelope"></i><a href="mailto:Americascontractingsolutions@gmail.com">Americascontractingsolutions@gmail.com</a></div>
+        <div class="footer-contact-item"><i class="fa fa-clock"></i><span>Mon–Fri 8am–6pm<br>Sat by appointment</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom"><div class="container"><p>&copy; 2026 America's Contracting Solutions. All Rights Reserved.</p></div></div>
+</footer>
+
+<!-- ════ FLOATING BUTTONS ════ -->
+<div class="floating-btns">
+  <button class="float-book" data-open-modal aria-label="Book Appointment">
+    <i class="fa fa-calendar-check"></i><span class="book-label">Book Appointment</span>
+  </button>
+  <a href="https://wa.me/18015417499" class="float-wa" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+</div>
+<button id="scroll-top" aria-label="Scroll to top"><i class="fa fa-arrow-up"></i></button>
+
+<!-- ════ BOOKING MODAL ════ -->
+<div class="modal-overlay" id="booking-modal" role="dialog" aria-modal="true">
+  <div class="modal">
+    <button class="modal-close" aria-label="Close">&times;</button>
+    <h3 class="modal-title">Book Your Free Consultation</h3>
+    <p class="modal-sub">We'll be in touch within 24 hours</p>
+    <form id="booking-form" class="form-grid">
+      <div class="form-group"><label>Full Name *</label><input type="text" name="name" required placeholder="John Smith"></div>
+      <div class="form-group"><label>Phone Number *</label><input type="tel" name="phone" required placeholder="(801) 555-0000"></div>
+      <div class="form-group full"><label>Email Address *</label><input type="email" name="email" required placeholder="you@email.com"></div>
+      <div class="form-group">
+        <label>Project Type</label>
+        <select name="project-type"><option>Fix &amp; Flip</option><option>Full Renovation</option><option>New Construction</option><option>ADU Addition</option><option>Commercial</option><option>Other</option></select>
+      </div>
+      <div class="form-group"><label>Preferred Date</label><input type="date" name="date"></div>
+      <div class="form-group full"><label>Message</label><textarea name="message" placeholder="Tell us about your project..."></textarea></div>
+      <div class="form-group full"><button type="submit" class="btn btn-primary" style="width:100%;justify-content:center">Confirm Appointment <i class="fa fa-arrow-right"></i></button></div>
+    </form>
+    <div class="form-success" id="booking-success">
+      <div class="success-icon"><i class="fa fa-check"></i></div>
+      <h3 style="color:#fff;margin-bottom:10px">You're All Set!</h3>
+      <p>Thank you! We'll be in touch within 24 hours.</p>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/portfolio.js"></script>
+</body>
+</html>

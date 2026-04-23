@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services | America's Contracting Solutions</title>
+  <meta name="description" content="Comprehensive contracting services: client consultation, construction management, budgeting, supply chain, zoning, permitting, surveys, deeds, and transaction coordination.">
+  <meta property="og:title" content="Services | America's Contracting Solutions">
+  <meta property="og:type" content="website">
+  <meta name="robots" content="index, follow">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><defs><clipPath id='c'><circle cx='50' cy='50' r='48'/></clipPath></defs><g clip-path='url(%23c)'><rect width='100' height='100' fill='%23C50009'/><rect x='50' width='50' height='100' fill='%23D20A11'/><polygon points='0,70 0,100 46,100 50,88 26,64' fill='%230060A0'/><polygon points='100,70 100,100 54,100 50,88 74,64' fill='%23008AD1'/><polygon points='50,6 14,54 25,62 50,22' fill='white' opacity='.92'/><polygon points='50,6 86,54 75,62 50,22' fill='white' opacity='.92'/><polygon points='50,34 18,74 29,82 50,48' fill='white' opacity='.88'/><polygon points='50,34 82,74 71,82 50,48' fill='white' opacity='.88'/></g></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- ════ PAGE LOADER ════ -->
+<div id="page-loader">
+  <svg class="loader-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs><clipPath id="lcs"><circle cx="50" cy="50" r="48"/></clipPath></defs>
+    <g clip-path="url(#lcs)">
+      <rect width="100" height="100" fill="#C50009"/>
+      <rect x="50" width="50" height="100" fill="#D20A11"/>
+      <polygon points="0,70 0,100 46,100 50,88 26,64" fill="#0060A0"/>
+      <polygon points="100,70 100,100 54,100 50,88 74,64" fill="#008AD1"/>
+      <polygon points="50,6 14,54 25,62 50,22" fill="white" opacity=".92"/>
+      <polygon points="50,6 86,54 75,62 50,22" fill="white" opacity=".92"/>
+      <polygon points="50,34 18,74 29,82 50,48" fill="white" opacity=".88"/>
+      <polygon points="50,34 82,74 71,82 50,48" fill="white" opacity=".88"/>
+    </g>
+    <circle cx="50" cy="50" r="47.5" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+  </svg>
+</div>
+
+<!-- ════ NAVBAR ════ -->
+<nav id="navbar">
+  <div class="container navbar-inner">
+    <a href="index.html" class="navbar-logo">
+      <svg class="logo-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <defs><clipPath id="ncs"><circle cx="50" cy="50" r="48"/></clipPath></defs>
+        <g clip-path="url(#ncs)">
+          <rect width="100" height="100" fill="#C50009"/>
+          <rect x="50" width="50" height="100" fill="#D20A11"/>
+          <polygon points="0,70 0,100 46,100 50,88 26,64" fill="#0060A0"/>
+          <polygon points="100,70 100,100 54,100 50,88 74,64" fill="#008AD1"/>
+          <polygon points="50,6 14,54 25,62 50,22" fill="white" opacity=".92"/>
+          <polygon points="50,6 86,54 75,62 50,22" fill="white" opacity=".92"/>
+          <polygon points="50,34 18,74 29,82 50,48" fill="white" opacity=".88"/>
+          <polygon points="50,34 82,74 71,82 50,48" fill="white" opacity=".88"/>
+        </g>
+        <circle cx="50" cy="50" r="47.5" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+      </svg>
+      <div class="logo-text"><span class="l1">AMERICA'S</span><span class="l2">CONTRACTING SOLUTIONS</span></div>
+    </a>
+    <div class="navbar-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html" class="active">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <a href="contact.html" class="btn btn-primary navbar-cta">Get a Free Quote</a>
+    <button class="hamburger" id="hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div id="mobile-nav">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="services.html" class="active">Services</a>
+  <a href="portfolio.html">Portfolio</a>
+  <a href="contact.html">Contact</a>
+  <a href="contact.html" class="btn btn-primary">Get a Free Quote</a>
+</div>
+
+<!-- ════ PAGE HERO ════ -->
+<header class="page-hero">
+  <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1920&q=80" alt="Construction blueprints and plans" loading="eager">
+  <div class="page-hero-overlay"></div>
+  <div class="page-hero-content">
+    <h1>Comprehensive<br>Contracting Services</h1>
+    <p class="page-hero-sub">From concept to completion — we handle every layer.</p>
+  </div>
+</header>
+
+<!-- ════ SERVICES DETAIL GRID ════ -->
+<section class="section-pad" style="background:var(--bg-base)">
+  <div class="container">
+    <div class="text-center fade-up" style="margin-bottom:56px">
+      <span class="red-label">Full Service Contracting</span>
+      <h2 style="color:#fff">Everything Your Project Needs</h2>
+      <div class="divider-sm center"></div>
+      <p style="max-width:600px;margin:0 auto">ACS manages every layer of your project — from initial vision to final deed — so nothing falls through the cracks.</p>
+    </div>
+
+    <div class="svc-detail-grid">
+
+      <!-- 1 -->
+      <div class="service-card fade-up delay-1">
+        <div class="svc-icon"><i class="fa fa-comments"></i></div>
+        <h4>Client Consultation</h4>
+        <p>Every project starts with a deep-dive conversation. We align on vision, timeline, and budget before a single decision is made.</p>
+      </div>
+
+      <!-- 2 -->
+      <div class="service-card fade-up delay-2">
+        <div class="svc-icon"><i class="fa fa-hard-hat"></i></div>
+        <h4>Construction Management</h4>
+        <p>We coordinate every trade, track every milestone, and ensure the site runs safely and on schedule — from groundbreaking to final walkthrough.</p>
+      </div>
+
+      <!-- 3 -->
+      <div class="service-card fade-up delay-3">
+        <div class="svc-icon"><i class="fa fa-chart-bar"></i></div>
+        <h4>Budgeting & Cost Tracking</h4>
+        <p>ACS holds weekly cost-tracking meetings, negotiates with suppliers, and reallocates funds strategically to protect your bottom line.</p>
+      </div>
+
+      <!-- 4 -->
+      <div class="service-card fade-up delay-1">
+        <div class="svc-icon"><i class="fa fa-boxes-stacked"></i></div>
+        <h4>Supply Chain Management</h4>
+        <p>We source materials from vetted suppliers, switch alternatives when delays arise, and keep your project moving without compromise.</p>
+      </div>
+
+      <!-- 5 -->
+      <div class="service-card fade-up delay-2">
+        <div class="svc-icon"><i class="fa fa-map-location-dot"></i></div>
+        <h4>Zoning & Municipal Permitting</h4>
+        <p>Every property has diversity and we have dealt with every kind of situation within the zoning and permitting process.</p>
+        <ul class="sub-list">
+          <li>Existing zoning rules / city ordinances / county regulations</li>
+          <li>Restrictions and recorded items</li>
+          <li>Early checks so your build plan matches what the jurisdiction will approve</li>
+        </ul>
+      </div>
+
+      <!-- 6 -->
+      <div class="service-card fade-up delay-3">
+        <div class="svc-icon"><i class="fa fa-helmet-safety"></i></div>
+        <h4>Engineering, Permitting & Inspection Readiness</h4>
+        <p>City approvals go far beyond submitting plans.</p>
+        <ul class="sub-list">
+          <li>Structural engineering review</li>
+          <li>Foundation and beam sizing by licensed engineers</li>
+          <li>Plan compliance with local building codes</li>
+          <li>Preparation for all inspections</li>
+        </ul>
+      </div>
+
+      <!-- 7 -->
+      <div class="service-card fade-up delay-1">
+        <div class="svc-icon"><i class="fa fa-ruler-combined"></i></div>
+        <h4>Surveys, Legal Descriptions & Boundary Clarity</h4>
+        <p>A build is only as clean as the boundary definition.</p>
+        <ul class="sub-list">
+          <li>Legal descriptions and tract references</li>
+          <li>Metes and bounds</li>
+          <li>Survey exhibits for closings</li>
+          <li>Fence line and boundary context</li>
+        </ul>
+      </div>
+
+      <!-- 8 -->
+      <div class="service-card fade-up delay-2">
+        <div class="svc-icon"><i class="fa fa-file-contract"></i></div>
+        <h4>Deeds & Title Coordination</h4>
+        <p>Clean documentation protects long-term value.</p>
+        <ul class="sub-list">
+          <li>General warranty deeds</li>
+          <li>County recording</li>
+          <li>Restrictions, easements, recorded exceptions</li>
+          <li>Closing coordination</li>
+        </ul>
+      </div>
+
+      <!-- 9 -->
+      <div class="service-card fade-up delay-3">
+        <div class="svc-icon"><i class="fa fa-handshake"></i></div>
+        <h4>Transaction Coordination</h4>
+        <p>ACS works alongside title and escrow teams to ensure ownership transfers, recordings, and closing documentation are clean, complete, and defensible.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ════ PERMITTING & PLAN COMPLIANCE ════ -->
+<section class="section-pad" style="background:#111">
+  <div class="container">
+    <div class="two-col" style="align-items:stretch">
+
+      <!-- Text column -->
+      <div class="fade-up" style="display:flex;flex-direction:column;justify-content:center">
+        <span class="red-label">Permitting Deep Dive</span>
+        <h2 style="color:#fff;margin-bottom:14px">Permitting & Plan Compliance</h2>
+        <div class="divider-sm"></div>
+        <p style="margin-bottom:28px">Most people think permitting is a single form. In reality, permitting is a process that requires plans to comply with code, site conditions, and local requirements. ACS manages all of it.</p>
+        <div class="permit-steps">
+          <div class="permit-step">
+            <div class="permit-num">01</div>
+            <div>
+              <h4>Verify Site Conditions</h4>
+              <p>Verifying site conditions and dimensions before construction begins — catching conflicts before they become expensive corrections.</p>
+            </div>
+          </div>
+          <div class="permit-step">
+            <div class="permit-num">02</div>
+            <div>
+              <h4>Adapt Plans to Code</h4>
+              <p>Adapting plans as required to meet applicable codes at the site — jurisdiction-specific, not generic templates.</p>
+            </div>
+          </div>
+          <div class="permit-step">
+            <div class="permit-num">03</div>
+            <div>
+              <h4>Coordinate Engineering</h4>
+              <p>Coordinating when additional engineering is required for local conditions — structural, foundation, mechanical, or otherwise.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Image column — stretches to match text height -->
+      <div class="col-img fade-up delay-2" style="aspect-ratio:unset;min-height:420px">
+        <img src="assets/img/permit-team.png" alt="ACS team reviewing construction blueprints and plans on-site" loading="lazy">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ════ WHY THESE SERVICES MATTER ════ -->
+<section class="section-pad" style="background:var(--bg-base)">
+  <div class="container">
+    <div class="text-center fade-up" style="margin-bottom:52px">
+      <span class="red-label">The ACS Difference</span>
+      <h2 style="color:#fff">Behind-the-Scenes Work<br>That Every Project Depends On</h2>
+      <div class="divider-sm center"></div>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:28px">
+      <div class="service-card fade-up delay-1" style="text-align:center">
+        <div class="svc-icon" style="margin:0 auto 18px"><i class="fa fa-clock"></i></div>
+        <h4>Faster Timelines</h4>
+        <p style="font-size:.88rem">Proactive permitting and inspections mean no last-minute holds or stop-work orders.</p>
+      </div>
+      <div class="service-card fade-up delay-2" style="text-align:center">
+        <div class="svc-icon" style="margin:0 auto 18px"><i class="fa fa-dollar-sign"></i></div>
+        <h4>Lower Correction Costs</h4>
+        <p style="font-size:.88rem">Catching code conflicts before the pour or framing stage saves tens of thousands.</p>
+      </div>
+      <div class="service-card fade-up delay-3" style="text-align:center">
+        <div class="svc-icon" style="margin:0 auto 18px"><i class="fa fa-circle-check"></i></div>
+        <h4>Clean Closings</h4>
+        <p style="font-size:.88rem">Proper documentation and title coordination means zero surprises at the closing table.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════ CTA BANNER ════ -->
+<section class="cta-banner">
+  <div class="container">
+    <h2>Have A Project In Mind?</h2>
+    <p>Get a free consultation and let's talk through what your project needs.</p>
+    <div class="cta-btns">
+      <a href="contact.html" class="btn btn-white-red"><i class="fa fa-paper-plane"></i> Get a Free Quote</a>
+      <button class="btn btn-outline" data-open-modal><i class="fa fa-calendar"></i> Book Appointment</button>
+    </div>
+  </div>
+</section>
+
+<!-- ════ FOOTER ════ -->
+<footer id="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo-wrap">
+          <svg class="logo-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs><clipPath id="fcs"><circle cx="50" cy="50" r="48"/></clipPath></defs>
+            <g clip-path="url(#fcs)">
+              <rect width="100" height="100" fill="#C50009"/>
+              <rect x="50" width="50" height="100" fill="#D20A11"/>
+              <polygon points="0,70 0,100 46,100 50,88 26,64" fill="#0060A0"/>
+              <polygon points="100,70 100,100 54,100 50,88 74,64" fill="#008AD1"/>
+              <polygon points="50,6 14,54 25,62 50,22" fill="white" opacity=".92"/>
+              <polygon points="50,6 86,54 75,62 50,22" fill="white" opacity=".92"/>
+              <polygon points="50,34 18,74 29,82 50,48" fill="white" opacity=".88"/>
+              <polygon points="50,34 82,74 71,82 50,48" fill="white" opacity=".88"/>
+            </g>
+          </svg>
+          <div class="logo-text"><span class="l1">AMERICA'S</span><span class="l2">CONTRACTING SOLUTIONS</span></div>
+        </div>
+        <p class="footer-tagline">Turning Visionary Concepts Into Exceptionally Built Spaces. Purpose-driven construction serving Central Texas and Utah.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="Twitter/X"><i class="fab fa-x-twitter"></i></a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-head">Quick Links</div>
+        <nav class="footer-links">
+          <a href="index.html"><i class="fa fa-chevron-right" style="font-size:.65rem;color:var(--red);margin-right:6px"></i>Home</a>
+          <a href="about.html"><i class="fa fa-chevron-right" style="font-size:.65rem;color:var(--red);margin-right:6px"></i>About</a>
+          <a href="services.html"><i class="fa fa-chevron-right" style="font-size:.65rem;color:var(--red);margin-right:6px"></i>Services</a>
+          <a href="portfolio.html"><i class="fa fa-chevron-right" style="font-size:.65rem;color:var(--red);margin-right:6px"></i>Portfolio</a>
+          <a href="contact.html"><i class="fa fa-chevron-right" style="font-size:.65rem;color:var(--red);margin-right:6px"></i>Contact</a>
+        </nav>
+      </div>
+      <div>
+        <div class="footer-head">Contact Us</div>
+        <div class="footer-contact-item"><i class="fa fa-location-dot"></i><span>172 Waikakaaua Dr<br>Bastrop, TX 78602</span></div>
+        <div class="footer-contact-item"><i class="fa fa-phone"></i><a href="tel:8015417499">801-541-7499</a></div>
+        <div class="footer-contact-item"><i class="fa fa-envelope"></i><a href="mailto:Americascontractingsolutions@gmail.com">Americascontractingsolutions@gmail.com</a></div>
+        <div class="footer-contact-item"><i class="fa fa-clock"></i><span>Mon–Fri 8am–6pm<br>Sat by appointment</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom"><div class="container"><p>&copy; 2026 America's Contracting Solutions. All Rights Reserved.</p></div></div>
+</footer>
+
+<!-- ════ FLOATING BUTTONS ════ -->
+<div class="floating-btns">
+  <button class="float-book" data-open-modal aria-label="Book Appointment">
+    <i class="fa fa-calendar-check"></i><span class="book-label">Book Appointment</span>
+  </button>
+  <a href="https://wa.me/18015417499" class="float-wa" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+</div>
+<button id="scroll-top" aria-label="Scroll to top"><i class="fa fa-arrow-up"></i></button>
+
+<!-- ════ BOOKING MODAL ════ -->
+<div class="modal-overlay" id="booking-modal" role="dialog" aria-modal="true">
+  <div class="modal">
+    <button class="modal-close" aria-label="Close">&times;</button>
+    <h3 class="modal-title">Book Your Free Consultation</h3>
+    <p class="modal-sub">We'll be in touch within 24 hours</p>
+    <form id="booking-form" class="form-grid">
+      <div class="form-group"><label>Full Name *</label><input type="text" name="name" required placeholder="John Smith"></div>
+      <div class="form-group"><label>Phone Number *</label><input type="tel" name="phone" required placeholder="(801) 555-0000"></div>
+      <div class="form-group full"><label>Email Address *</label><input type="email" name="email" required placeholder="you@email.com"></div>
+      <div class="form-group">
+        <label>Project Type</label>
+        <select name="project-type"><option>Fix &amp; Flip</option><option>Full Renovation</option><option>New Construction</option><option>ADU Addition</option><option>Commercial</option><option>Other</option></select>
+      </div>
+      <div class="form-group"><label>Preferred Date</label><input type="date" name="date"></div>
+      <div class="form-group full"><label>Message</label><textarea name="message" placeholder="Tell us about your project..."></textarea></div>
+      <div class="form-group full"><button type="submit" class="btn btn-primary" style="width:100%;justify-content:center">Confirm Appointment <i class="fa fa-arrow-right"></i></button></div>
+    </form>
+    <div class="form-success" id="booking-success">
+      <div class="success-icon"><i class="fa fa-check"></i></div>
+      <h3 style="color:#fff;margin-bottom:10px">You're All Set!</h3>
+      <p>Thank you! We'll be in touch within 24 hours.</p>
+    </div>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>

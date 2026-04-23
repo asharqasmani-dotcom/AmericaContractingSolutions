@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | America's Contracting Solutions</title>
+  <meta name="description" content="Contact ACS for a free consultation. Based in Bastrop, TX — serving Central Texas and Utah. Call 801-541-7499 or send us a message.">
+  <meta property="og:title" content="Contact | America's Contracting Solutions">
+  <meta property="og:type" content="website">
+  <meta name="robots" content="index, follow">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><defs><clipPath id='c'><circle cx='50' cy='50' r='48'/></clipPath></defs><g clip-path='url(%23c)'><rect width='100' height='100' fill='%23C50009'/><rect x='50' width='50' height='100' fill='%23D20A11'/><polygon points='0,70 0,100 46,100 50,88 26,64' fill='%230060A0'/><polygon points='100,70 100,100 54,100 50,88 74,64' fill='%23008AD1'/><polygon points='50,6 14,54 25,62 50,22' fill='white' opacity='.92'/><polygon points='50,6 86,54 75,62 50,22' fill='white' opacity='.92'/><polygon points='50,34 18,74 29,82 50,48' fill='white' opacity='.88'/><polygon points='50,34 82,74 71,82 50,48' fill='white' opacity='.88'/></g></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    .hours-row { display:flex; justify-content:space-between; padding:8px 0; border-bottom:1px solid rgba(255,255,255,.06); font-size:.88rem; }
+    .hours-row:last-child { border-bottom:none; }
+    .hours-day { color:var(--gray-light); }
+    .hours-time { color:var(--white); font-family:var(--font-head); font-size:.78rem; font-weight:600; letter-spacing:.06em; }
+    .hours-time.closed { color:var(--gray-dark); }
+  </style>
+</head>
+<body>
+
+<!-- ════ PAGE LOADER ════ -->
+<div id="page-loader">
+  <svg class="loader-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs><clipPath id="lcco"><circle cx="50" cy="50" r="48"/></clipPath></defs>
+    <g clip-path="url(#lcco)">
+      <rect width="100" height="100" fill="#C50009"/><rect x="50" width="50" height="100" fill="#D20A11"/>
+      <polygon points="0,70 0,100 46,100 50,88 26,64" fill="#0060A0"/>
+      <polygon points="100,70 100,100 54,100 50,88 74,64" fill="#008AD1"/>
+      <polygon points="50,6 14,54 25,62 50,22" fill="white" opacity=".92"/>
+      <polygon points="50,6 86,54 75,62 50,22" fill="white" opacity=".92"/>
+      <polygon points="50,34 18,74 29,82 50,48" fill="white" opacity=".88"/>
+      <polygon points="50,34 82,74 71,82 50,48" fill="white" opacity=".88"/>
+    </g>
+    <circle cx="50" cy="50" r="47.5" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+  </svg>
+</div>
+
+<!-- ════ NAVBAR ════ -->
+<nav id="navbar">
+  <div class="container navbar-inner">
+    <a href="index.html" class="navbar-logo">
+      <svg class="logo-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <defs><clipPath id="ncco"><circle cx="50" cy="50" r="48"/></clipPath></defs>
+        <g clip-path="url(#ncco)">
+          <rect width="100" height="100" fill="#C50009"/><rect x="50" width="50" height="100" fill="#D20A11"/>
+          <polygon points="0,70 0,100 46,100 50,88 26,64" fill="#0060A0"/>
+          <polygon points="100,70 100,100 54,100 50,88 74,64" fill="#008AD1"/>
+          <polygon points="50,6 14,54 25,62 50,22" fill="white" opacity=".92"/>
+          <polygon points="50,6 86,54 75,62 50,22" fill="white" opacity=".92"/>
+          <polygon points="50,34 18,74 29,82 50,48" fill="white" opacity=".88"/>
+          <polygon points="50,34 82,74 71,82 50,48" fill="white" opacity=".88"/>
+        </g>
+        <circle cx="50" cy="50" r="47.5" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+      </svg>
+      <div class="logo-text"><span class="l1">AMERICA'S</span><span class="l2">CONTRACTING SOLUTIONS</span></div>
+    </a>
+    <div class="navbar-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html" class="active">Contact</a>
+    </div>
+    <a href="contact.html" class="btn btn-primary navbar-cta">Get a Free Quote</a>
+    <button class="hamburger" id="hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div id="mobile-nav">
+  <a href="index.html">Home</a><a href="about.html">About</a>
+  <a href="services.html">Services</a><a href="portfolio.html">Portfolio</a>
+  <a href="contact.html" class="active">Contact</a>
+  <a href="contact.html" class="btn btn-primary">Get a Free Quote</a>
+</div>
+
+<!-- ════ PAGE HERO ════ -->
+<header class="page-hero">
+  <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1920&q=80" alt="Modern finished home exterior" loading="eager">
+  <div class="page-hero-overlay"></div>
+  <div class="page-hero-content">
+    <h1>Let's Build<br>Something Great</h1>
+    <p class="page-hero-sub">Reach out today for a free consultation</p>
+  </div>
+</header>
+
+<!-- ════ CONTACT SPLIT ════ -->
+<section class="section-pad" style="background:var(--bg-base)">
+  <div class="container">
+    <div class="contact-grid">
+
+      <!-- LEFT: Info -->
+      <div class="fade-up">
+        <span class="red-label">Get In Touch</span>
+        <h2 style="color:#fff;margin-bottom:14px">Contact Information</h2>
+        <div class="divider-sm"></div>
+        <p style="margin-bottom:32px">Whether you're ready to start a project or just exploring options, our team is here to answer every question. Reach out through any channel below.</p>
+
+        <div class="contact-info-item">
+          <i class="fa fa-location-dot"></i>
+          <div>
+            <div style="color:var(--white);font-weight:600;margin-bottom:2px">Office Location</div>
+            <div style="color:var(--gray-light);font-size:.9rem">172 Waikakaaua Dr<br>Bastrop, TX 78602</div>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <i class="fa fa-phone"></i>
+          <div>
+            <div style="color:var(--white);font-weight:600;margin-bottom:2px">Phone</div>
+            <a href="tel:8015417499" style="color:var(--gray-light);font-size:.9rem">801-541-7499</a>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <i class="fa fa-envelope"></i>
+          <div>
+            <div style="color:var(--white);font-weight:600;margin-bottom:2px">Email</div>
+            <a href="mailto:Americascontractingsolutions@gmail.com" style="color:var(--gray-light);font-size:.88rem;word-break:break-all">Americascontractingsolutions@gmail.com</a>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <i class="fa fa-globe"></i>
+          <div>
+            <div style="color:var(--white);font-weight:600;margin-bottom:2px">Service Areas</div>
+            <div style="color:var(--gray-light);font-size:.9rem">Central Texas &bull; Utah</div>
+          </div>
+        </div>
+
+        <!-- Hours -->
+        <div style="background:var(--bg-card);border-radius:4px;padding:24px;margin:28px 0 0">
+          <div style="font-family:var(--font-head);font-size:.72rem;font-weight:700;letter-spacing:.14em;color:var(--red);text-transform:uppercase;margin-bottom:16px">Business Hours</div>
+          <div class="hours-row"><span class="hours-day">Monday</span><span class="hours-time">8:00 AM – 6:00 PM</span></div>
+          <div class="hours-row"><span class="hours-day">Tuesday</span><span class="hours-time">8:00 AM – 6:00 PM</span></div>
+          <div class="hours-row"><span class="hours-day">Wednesday</span><span class="hours-time">8:00 AM – 6:00 PM</span></div>
+          <div class="hours-row"><span class="hours-day">Thursday</span><span class="hours-time">8:00 AM – 6:00 PM</span></div>
+          <div class="hours-row"><span class="hours-day">Friday</span><span class="hours-time">8:00 AM – 6:00 PM</span></div>
+          <div class="hours-row"><span class="hours-day">Saturday</span><span class="hours-time">By Appointment</span></div>
+          <div class="hours-row"><span class="hours-day">Sunday</span><span class="hours-time closed">Closed</span></div>
+        </div>
+
+        <!-- Social -->
+        <div class="contact-social">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="Twitter/X"><i class="fab fa-x-twitter"></i></a>
+          <a href="https://wa.me/18015417499" target="_blank" rel="noopener" aria-label="WhatsApp" style="background:rgba(37,211,102,.12);border-color:rgba(37,211,102,.25);color:#25D366"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <!-- RIGHT: Form -->
+      <div class="fade-up delay-2">
+        <div style="background:var(--bg-card);border-radius:6px;border-top:3px solid var(--red);padding:40px" id="contact-form-wrapper">
+          <h3 style="color:#fff;margin-bottom:6px">Send Us a Message</h3>
+          <p style="font-size:.85rem;margin-bottom:28px">Fill out the form below and we'll respond within 24 hours.</p>
+          <form id="contact-form" class="form-grid">
+            <div class="form-group">
+              <label for="cf-name">Full Name *</label>
+              <input type="text" id="cf-name" name="name" required placeholder="John Smith">
+            </div>
+            <div class="form-group">
+              <label for="cf-phone">Phone Number *</label>
+              <input type="tel" id="cf-phone" name="phone" required placeholder="(801) 555-0000">
+            </div>
+            <div class="form-group full">
+              <label for="cf-email">Email Address *</label>
+              <input type="email" id="cf-email" name="email" required placeholder="you@email.com">
+            </div>
+            <div class="form-group">
+              <label for="cf-type">Project Type</label>
+              <select id="cf-type" name="project-type">
+                <option value="Fix &amp; Flip">Fix &amp; Flip</option>
+                <option value="Full Renovation">Full Renovation</option>
+                <option value="New Construction">New Construction</option>
+                <option value="ADU Addition">ADU Addition</option>
+                <option value="Commercial">Commercial</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="cf-loc">Project Location</label>
+              <input type="text" id="cf-loc" name="location" placeholder="City, State">
+            </div>
+            <div class="form-group full">
+              <label for="cf-budget">Estimated Budget</label>
+              <select id="cf-budget" name="budget">
+                <option value="Under $30K">Under $30K</option>
+                <option value="$30K–$60K">$30K – $60K</option>
+                <option value="$60K–$90K">$60K – $90K</option>
+                <option value="$90K+">$90K+</option>
+              </select>
+            </div>
+            <div class="form-group full">
+              <label for="cf-msg">Message / Project Description</label>
+              <textarea id="cf-msg" name="message" placeholder="Tell us about your project, timeline, and any specific goals..."></textarea>
+            </div>
+            <div class="form-group full">
+              <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;font-size:.85rem">
+                Send Message <i class="fa fa-arrow-right"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="form-success" id="contact-success" style="background:var(--bg-card);border-radius:6px;border-top:3px solid var(--red)">
+          <div class="success-icon"><i class="fa fa-check"></i></div>
+          <h3 style="color:#fff;margin-bottom:10px">Message Sent!</h3>
+          <p>Thank you! We'll be in touch within 24 hours.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ════ BOOK APPOINTMENT ════ -->
+<section class="section-pad" style="background:#0d0d0d">
+  <div class="container">
+    <div class="text-center fade-up" style="margin-bottom:52px">
+      <span class="red-label">Schedule a Call</span>
+      <h2 style="color:#fff">Schedule Your Free Consultation</h2>
+      <div class="divider-sm center"></div>
+      <p style="max-width:520px;margin:0 auto">Choose a date and time that works for you. Our team will confirm your appointment within 2 business hours.</p>
+    </div>
+    <div style="max-width:680px;margin:0 auto">
+      <div style="background:var(--bg-card);border-radius:6px;border-top:3px solid var(--blue);padding:40px" id="appt-form-wrapper">
+        <form id="appt-form" class="form-grid">
+          <div class="form-group">
+            <label>Full Name *</label>
+            <input type="text" name="name" required placeholder="John Smith">
+          </div>
+          <div class="form-group">
+            <label>Phone Number *</label>
+            <input type="tel" name="phone" required placeholder="(801) 555-0000">
+          </div>
+          <div class="form-group full">
+            <label>Email Address *</label>
+            <input type="email" name="email" required placeholder="you@email.com">
+          </div>
+          <div class="form-group">
+            <label>Project Type</label>
+            <select name="project-type">
+              <option>Fix &amp; Flip</option>
+              <option>Full Renovation</option>
+              <option>New Construction</option>
+              <option>ADU Addition</option>
+              <option>Commercial</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Preferred Date *</label>
+            <input type="date" name="date" required>
+          </div>
+          <div class="form-group">
+            <label>Preferred Time</label>
+            <select name="time">
+              <option>8:00 AM</option><option>9:00 AM</option><option>10:00 AM</option>
+              <option>11:00 AM</option><option>12:00 PM</option><option>1:00 PM</option>
+              <option>2:00 PM</option><option>3:00 PM</option><option>4:00 PM</option>
+              <option>5:00 PM</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Project Location</label>
+            <input type="text" name="location" placeholder="City, State">
+          </div>
+          <div class="form-group full">
+            <label>Tell Us About Your Project</label>
+            <textarea name="message" placeholder="Brief overview of your project scope and goals..." style="min-height:90px"></textarea>
+          </div>
+          <div class="form-group full">
+            <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center">
+              <i class="fa fa-calendar-check"></i> Confirm Appointment
+            </button>
+          </div>
+        </form>
+      </div>
+      <div class="form-success" id="appt-success" style="background:var(--bg-card);border-radius:6px;border-top:3px solid var(--blue)">
+        <div class="success-icon" style="background:rgba(0,138,209,.12)"><i class="fa fa-calendar-check" style="color:var(--blue)"></i></div>
+        <h3 style="color:#fff;margin-bottom:10px">Appointment Requested!</h3>
+        <p>We'll confirm your appointment within 2 business hours.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════ MAP ════ -->
+<section style="background:var(--bg-base)">
+  <div class="map-wrap">
+    <iframe
+      src="https://maps.google.com/maps?q=Bastrop%2C+TX+78602&t=&z=14&ie=UTF8&iwloc=&output=embed"
+      allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+      title="ACS Office Location — Bastrop, TX 78602">
+    </iframe>
+    <div class="map-card">
+      <h4><i class="fa fa-location-dot" style="color:var(--red);margin-right:8px"></i>Our Location</h4>
+      <p style="color:var(--gray-light)">172 Waikakaaua Dr<br>Bastrop, TX 78602</p>
+      <a href="https://maps.google.com/?q=Bastrop,TX+78602" target="_blank" rel="noopener"
+         style="display:inline-flex;align-items:center;gap:6px;color:var(--red);font-family:var(--font-head);font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-top:12px">
+        Get Directions <i class="fa fa-arrow-right"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ════ TRUST BADGES ════ -->
+<section style="background:var(--bg-base);padding:0 0 80px">
+  <div class="container">
+    <div class="trust-row fade-up">
+      <div class="trust-badge"><i class="fa fa-trophy"></i><span>120+ Completed Projects</span></div>
+      <div class="trust-badge"><i class="fa fa-certificate"></i><span>Licensed &amp; Insured</span></div>
+      <div class="trust-badge"><i class="fa fa-lock"></i><span>Transparent Pricing</span></div>
+      <div class="trust-badge"><i class="fa fa-clock"></i><span>On-Time Delivery</span></div>
+      <div class="trust-badge"><i class="fa fa-handshake"></i><span>Client-First Approach</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ════ FOOTER ════ -->
+<footer id="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo-wrap">
+          <svg class="logo-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs><clipPath id="fcco"><circle cx="50" cy="50" r="48"/></clipPath></defs>
+            <g clip-path="url(#fcco)">
+              <rect width="100" height="100" fill="#C50009"/><rect x="50" width="50" height="100" fill="#D20A11"/>
+              <polygon points="0,70 0,100 46,100 50,88 26,64" fill="#0060A0"/>
+              <polygon points="100,70 100,100 54,100 50,88 74,64" fill="#008AD1"/>
+              <polygon points="50,6 14,54 25,62 50,22" fill="white" opacity=".92"/>
+              <polygon points="50,6 86,54 75,62 50,22" fill="white" opacity=".92"/>
+              <polygon points="50,34 18,74 29,82 50,48" fill="white" opacity=".88"/>
+              <polygon points="50,34 82,74 71,82 50,48" fill="white" opacity=".88"/>
+            </g>
+          </svg>
+          <div class="logo-text"><span class="l1">AMERICA'S</span><span class="l2">CONTRACTING SOLUTIONS</span></div>
+        </div>
+        <p class="footer-tagline">Turning Visionary Concepts Into Exceptionally Built Spaces. Purpose-driven construction serving Central Texas and Utah.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="Twitter/X"><i class="fab fa-x-twitter"></i></a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-head">Quick Links</div>
+        <nav class="footer-links">
+          <a href="index.html"><i class="fa fa-chevron-right" style="font-size:.65rem;color:var(--red);margin-right:6px"></i>Home</a>
+          <a href="about.html"><i class="fa fa-chevron-right" style="font-size:.65rem;color:var(--red);margin-right:6px"></i>About</a>
+          <a href="services.html"><i class="fa fa-chevron-right" style="font-size:.65rem;color:var(--red);margin-right:6px"></i>Services</a>
+          <a href="portfolio.html"><i class="fa fa-chevron-right" style="font-size:.65rem;color:var(--red);margin-right:6px"></i>Portfolio</a>
+          <a href="contact.html"><i class="fa fa-chevron-right" style="font-size:.65rem;color:var(--red);margin-right:6px"></i>Contact</a>
+        </nav>
+      </div>
+      <div>
+        <div class="footer-head">Contact Us</div>
+        <div class="footer-contact-item"><i class="fa fa-location-dot"></i><span>172 Waikakaaua Dr<br>Bastrop, TX 78602</span></div>
+        <div class="footer-contact-item"><i class="fa fa-phone"></i><a href="tel:8015417499">801-541-7499</a></div>
+        <div class="footer-contact-item"><i class="fa fa-envelope"></i><a href="mailto:Americascontractingsolutions@gmail.com">Americascontractingsolutions@gmail.com</a></div>
+        <div class="footer-contact-item"><i class="fa fa-clock"></i><span>Mon–Fri 8am–6pm<br>Sat by appointment</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom"><div class="container"><p>&copy; 2026 America's Contracting Solutions. All Rights Reserved.</p></div></div>
+</footer>
+
+<!-- ════ FLOATING BUTTONS ════ -->
+<div class="floating-btns">
+  <button class="float-book" data-open-modal aria-label="Book Appointment">
+    <i class="fa fa-calendar-check"></i><span class="book-label">Book Appointment</span>
+  </button>
+  <a href="https://wa.me/18015417499" class="float-wa" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+</div>
+<button id="scroll-top" aria-label="Scroll to top"><i class="fa fa-arrow-up"></i></button>
+
+<!-- ════ BOOKING MODAL ════ -->
+<div class="modal-overlay" id="booking-modal" role="dialog" aria-modal="true">
+  <div class="modal">
+    <button class="modal-close" aria-label="Close">&times;</button>
+    <h3 class="modal-title">Book Your Free Consultation</h3>
+    <p class="modal-sub">We'll be in touch within 24 hours</p>
+    <form id="booking-form" class="form-grid">
+      <div class="form-group"><label>Full Name *</label><input type="text" name="name" required placeholder="John Smith"></div>
+      <div class="form-group"><label>Phone Number *</label><input type="tel" name="phone" required placeholder="(801) 555-0000"></div>
+      <div class="form-group full"><label>Email Address *</label><input type="email" name="email" required placeholder="you@email.com"></div>
+      <div class="form-group">
+        <label>Project Type</label>
+        <select name="project-type"><option>Fix &amp; Flip</option><option>Full Renovation</option><option>New Construction</option><option>ADU Addition</option><option>Commercial</option><option>Other</option></select>
+      </div>
+      <div class="form-group"><label>Preferred Date</label><input type="date" name="date"></div>
+      <div class="form-group full"><label>Message</label><textarea name="message" placeholder="Tell us about your project..."></textarea></div>
+      <div class="form-group full"><button type="submit" class="btn btn-primary" style="width:100%;justify-content:center">Confirm Appointment <i class="fa fa-arrow-right"></i></button></div>
+    </form>
+    <div class="form-success" id="booking-success">
+      <div class="success-icon"><i class="fa fa-check"></i></div>
+      <h3 style="color:#fff;margin-bottom:10px">You're All Set!</h3>
+      <p>Thank you! We'll be in touch within 24 hours.</p>
+    </div>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+<script src="js/contact.js"></script>
+</body>
+</html>
