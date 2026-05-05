@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#F2F2F3"/>
+  <circle cx="200" cy="155" r="72" fill="#DCDCDF"/>
+  <ellipse cx="200" cy="340" rx="110" ry="80" fill="#DCDCDF"/>
+  <text x="200" y="175" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="64" font-weight="800" fill="#D20A11" text-anchor="middle" dominant-baseline="middle" letter-spacing="4">JC</text>
+  <text x="200" y="385" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#888" text-anchor="middle">Joshua Cannon</text>
+</svg>
